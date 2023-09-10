@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Aldrich Agabin!</h1>
+<h1 align="center">Hi, I'm Aldrich Agabin!👋</h1>
 
 - 🔭 I’m currently working on [Mark Me Here!](https://github.com/MarkMeHereApp/MarkMeHere)
 
