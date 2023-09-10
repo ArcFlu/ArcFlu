@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Aldrich Agabin!👋</h1>
+<img width="1470" alt="image" src="https://github.com/ArcFlu/ArcFlu/assets/93015179/9197e2d2-9821-42cd-bdd7-66e67441bf15">
 
 - 🔭 I’m currently working on [Mark Me Here!](https://github.com/MarkMeHereApp/MarkMeHere)
 
