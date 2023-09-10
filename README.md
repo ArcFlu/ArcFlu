@@ -2,7 +2,7 @@
 
 - 🔭 I’m currently working on [Mark Me Here!](https://github.com/MarkMeHereApp/MarkMeHere)
 
-- 🌱 I’m currently learning **Typescript, Next.js, and TailwindCSS!**
+- 🌱 I’m currently learning **Typescript, Next.js, and Tailwind!**
   
 - 👨‍💻 Check out my [personal website!](https://aldrich-agabin.squarespace.com/config/?frameUrl=%2F)
 
