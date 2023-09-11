@@ -120,5 +120,10 @@
         />
     </p>
 
-  <p align="left"> <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" /> </p>
+    <p align="left">
+      <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
+      <br/>
+      <a href="https://wakatime.com/@85dcc0c1-2624-4ea0-af2b-3b32acf28682"><img src="https://wakatime.com/badge/user/85dcc0c1-2624-4ea0-af2b-3b32acf28682.svg" alt="Total time coded since Sep 10 2023" />
+    </p>
+
 
