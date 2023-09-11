@@ -25,3 +25,4 @@ jobs:
           SHOW_LANGUAGE: False
           UPDATED_DATE_FORMAT: "%Y/%m/%d %H:%M:%S"
           SHOW_PROFILE_VIEWS: False
+          SHOW_SHORT_INFO: False
