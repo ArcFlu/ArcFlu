@@ -145,6 +145,7 @@ Saturday                 1533 commits        ███░░░░░░░░�
 Sunday                   2009 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.76 % 
 ```
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=ArcFlu)](https://github.com/ArcFlu/github-profile-trophy)
 
 
  Last Updated on 2023/12/09 18:39:14 UTC
