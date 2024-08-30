@@ -121,13 +121,11 @@
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-222%20hrs%2050%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-224%20hrs%2038%20mins-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 249.7 kB Used in GitHub's Storage 
- > 
-> 🏆 290 Contributions in the Year 2024
  > 
 > 💼 Opted to Hire
  > 
@@ -157,6 +155,6 @@ Sunday                   2007 commits        ████░░░░░░░�
 
 
 
- Last Updated on 2024/08/29 18:41:50 UTC
+ Last Updated on 2024/08/30 18:42:27 UTC
 <!--END_SECTION:waka-->
 
