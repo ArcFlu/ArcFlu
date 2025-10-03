@@ -121,13 +121,13 @@
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-734%20hrs%2013%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-733%20hrs%2053%20mins-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 267.2 kB Used in GitHub's Storage 
  > 
-> 🏆 695 Contributions in the Year 2025
+> 🏆 699 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
@@ -135,28 +135,7 @@
  > 
 > 🔑 14 Private Repositories 
  > 
-**I'm a Night 🦉** 
 
-```text
-🌞 Morning                930 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.01 % 
-🌆 Daytime                2865 commits        ██████░░░░░░░░░░░░░░░░░░░   24.68 % 
-🌃 Evening                3509 commits        ████████░░░░░░░░░░░░░░░░░   30.23 % 
-🌙 Night                  4304 commits        █████████░░░░░░░░░░░░░░░░   37.08 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   1825 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.72 % 
-Tuesday                  1816 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.64 % 
-Wednesday                1500 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.92 % 
-Thursday                 1410 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.15 % 
-Friday                   1436 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.37 % 
-Saturday                 1719 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.81 % 
-Sunday                   1902 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.39 % 
-```
-
-
-
- Last Updated on 2025/10/02 18:45:36 UTC
+ Last Updated on 2025/10/03 18:46:55 UTC
 <!--END_SECTION:waka-->
 
