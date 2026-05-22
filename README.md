@@ -123,6 +123,11 @@
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-965%20hrs%2037%20mins-blue?style=flat)
 
+<h3 align="left">Claude Code Usage:</h3>
+
+![Claude Tokens](https://tokscale.ai/api/badge/arcflu/svg?metric=tokens&compact=1&style=flat&label=Claude%20Tokens&color=0e75b6)
+![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=blue)
+
 **🐱 My GitHub Data** 
 
 > 📦 277.5 kB Used in GitHub's Storage 
@@ -159,9 +164,4 @@ Sunday                   2061 commits        ████░░░░░░░�
 
  Last Updated on 2026/05/21 20:20:04 UTC
 <!--END_SECTION:waka-->
-
-<h3 align="left">Claude Code Usage:</h3>
-
-![Claude Tokens](https://tokscale.ai/api/badge/arcflu/svg?metric=tokens&compact=1&style=flat&label=Claude%20Tokens&color=0e75b6)
-![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=blue)
 
