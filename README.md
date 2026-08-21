@@ -121,15 +121,15 @@
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C051%20hrs%2015%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C051%20hrs%2044%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-167%20hrs%2019%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-167%20hrs%2048%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 277.5 kB Used in GitHub's Storage 
  > 
-> 🏆 331 Contributions in the Year 2026
+> 🏆 332 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -161,28 +161,29 @@ Sunday                   2061 commits        ████░░░░░░░�
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 8 hrs 54 mins (98.61%)
+⏱ AI Coding Time: 10 hrs 50 mins (98.73%)
 
-✍️ 1,286 lines written by AI, 1 lines written by hand (99.92% AI-written)
+✍️ 1,920 lines written by AI, 1 lines written by hand (99.95% AI-written)
 
-🔤 3,087,616 Input Tokens, 401,654 Output Tokens
+🔤 4,148,060 Input Tokens, 544,518 Output Tokens
 
-💵 $42.41 Estimated AI Cost This Week
+💵 $53.01 Estimated AI Cost This Week
 
-🧠 27 AI Sessions, 162 AI Prompts
+🧠 29 AI Sessions, 188 AI Prompts
 
-Sonnet                   1,590 lines         █████████████████████████   100.00 % 
+Sonnet                   2,018 lines         ████████████████████████░   94.08 % 
+Opus                     127 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   05.92 % 
 Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 Haiku                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.92% of written lines came from AI
-📚 Verbose Prompter — average 2,788 characters per prompt
+🤖 AI-Driven — 99.95% of written lines came from AI
+📚 Verbose Prompter — average 2,665 characters per prompt
 🔁 Iterative Prompter — average 6 prompts per session
-🚀 High AI Trust — 0.2% of changed lines were hand-edited
+🚀 High AI Trust — 0.14% of changed lines were hand-edited
 ```
 
 
- Last Updated on 2026/08/20 19:11:29 UTC
+ Last Updated on 2026/08/21 19:07:21 UTC
 <!--END_SECTION:waka-->
 
