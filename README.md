@@ -121,9 +121,9 @@
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C051%20hrs%2044%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C051%20hrs%2050%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-167%20hrs%2048%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-167%20hrs%2054%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -161,29 +161,29 @@ Sunday                   2061 commits        ████░░░░░░░�
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 8 hrs 28 mins (98.48%)
+⏱ AI Coding Time: 7 hrs 37 mins (98.48%)
 
-✍️ 1,204 lines written by AI, 1 lines written by hand (99.92% AI-written)
+✍️ 1,188 lines written by AI, 1 lines written by hand (99.92% AI-written)
 
-🔤 2,629,501 Input Tokens, 353,784 Output Tokens
+🔤 2,664,372 Input Tokens, 325,238 Output Tokens
 
-💵 $37.01 Estimated AI Cost This Week
+💵 $34.00 Estimated AI Cost This Week
 
-🧠 23 AI Sessions, 153 AI Prompts
+🧠 21 AI Sessions, 135 AI Prompts
 
-Sonnet                   1,283 lines         ███████████████████████░░   90.99 % 
-Opus                     127 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   09.01 % 
+Sonnet                   1,263 lines         ███████████████████████░░   90.86 % 
+Opus                     127 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   09.14 % 
 Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 Haiku                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 99.92% of written lines came from AI
-📚 Verbose Prompter — average 2,434 characters per prompt
-🔁 Iterative Prompter — average 7 prompts per session
-🚀 High AI Trust — 0.21% of changed lines were hand-edited
+📚 Verbose Prompter — average 2,683 characters per prompt
+🔁 Iterative Prompter — average 6 prompts per session
+🚀 High AI Trust — 0.14% of changed lines were hand-edited
 ```
 
 
- Last Updated on 2026/08/24 19:10:46 UTC
+ Last Updated on 2026/08/25 19:09:25 UTC
 <!--END_SECTION:waka-->
 
