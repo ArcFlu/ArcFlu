@@ -121,9 +121,9 @@
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C052%20hrs%2016%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C054%20hrs%2028%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-168%20hrs%2022%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-170%20hrs%2035%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -161,28 +161,28 @@ Sunday                   2061 commits        ████░░░░░░░�
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 5 hrs 40 mins (100.0%)
+⏱ AI Coding Time: 3 hrs 47 mins (100.0%)
 
-✍️ 555 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 1,527 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 2,836,176 Input Tokens, 256,102 Output Tokens
+🔤 2,899,944 Input Tokens, 249,632 Output Tokens
 
-💵 $51.04 Estimated AI Cost This Week
+💵 $25.58 Estimated AI Cost This Week
 
-🧠 20 AI Sessions, 135 AI Prompts
+🧠 20 AI Sessions, 63 AI Prompts
 
-Sonnet                   678 lines           █████████████████████░░░░   84.22 % 
-Opus                     127 lines           ████░░░░░░░░░░░░░░░░░░░░░   15.78 % 
+Sonnet                   1,663 lines         ███████████████████████░░   92.91 % 
+Opus                     127 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   07.09 % 
 Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 3,836 characters per prompt
-🔁 Iterative Prompter — average 7 prompts per session
+📚 Verbose Prompter — average 2,333 characters per prompt
+🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
 
 
- Last Updated on 2026/08/26 20:28:09 UTC
+ Last Updated on 2026/08/28 02:16:40 UTC
 <!--END_SECTION:waka-->
 
