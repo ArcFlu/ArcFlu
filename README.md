@@ -121,9 +121,9 @@
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C054%20hrs%2028%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C054%20hrs%2041%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-170%20hrs%2035%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-170%20hrs%2048%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -161,28 +161,27 @@ Sunday                   2061 commits        ████░░░░░░░�
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 3 hrs 47 mins (100.0%)
+⏱ AI Coding Time: 3 hrs 21 mins (100.0%)
 
-✍️ 1,527 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 1,334 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 2,899,944 Input Tokens, 249,632 Output Tokens
+🔤 2,084,647 Input Tokens, 209,504 Output Tokens
 
-💵 $25.58 Estimated AI Cost This Week
+💵 $21.64 Estimated AI Cost This Week
 
-🧠 20 AI Sessions, 63 AI Prompts
+🧠 20 AI Sessions, 62 AI Prompts
 
-Sonnet                   1,663 lines         ███████████████████████░░   92.91 % 
-Opus                     127 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   07.09 % 
+Sonnet                   1,452 lines         █████████████████████████   100.00 % 
 Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 2,333 characters per prompt
+📚 Verbose Prompter — average 2,046 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
 
 
- Last Updated on 2026/08/28 02:16:40 UTC
+ Last Updated on 2026/08/29 01:50:51 UTC
 <!--END_SECTION:waka-->
 
