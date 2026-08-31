@@ -2,7 +2,7 @@
 
 ### 👋 Intro
 
-- 🔭 I’m currently working at Squarespace!
+- <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I’m currently working at Squarespace! 
 
 - 👨‍💻 Check out my [personal website!](https://aldrich-agabin.squarespace.com)
 
@@ -64,6 +64,9 @@
   </a>
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
+  </a>
+  <a href="https://godotengine.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/godot/godot-original.svg" alt="godot" width="40" height="40" />
   </a>
 </p>
 
