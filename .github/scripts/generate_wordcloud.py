@@ -145,18 +145,35 @@ def place_word(occupancy: np.ndarray, mask: Image.Image, angle: float, base_radi
     return None
 
 
-def crop_to_content(img: Image.Image, background_color: str, padding: int = CROP_PADDING) -> Image.Image:
-    bg = Image.new("RGB", (1, 1), background_color).getpixel((0, 0))
-    arr = np.array(img)
-    non_bg = np.any(arr != np.array(bg), axis=-1)
-    ys, xs = np.where(non_bg)
-    if len(xs) == 0:
-        return img
-    left, right, top, bottom = xs.min(), xs.max(), ys.min(), ys.max()
-    return img.crop((
-        max(0, left - padding), max(0, top - padding),
-        min(img.width, right + padding), min(img.height, bottom + padding),
-    ))
+OUTLINE_COLOR = "#1A1A2E"
+OUTLINE_WIDTH = 5
+
+
+def crop_to_circle(img: Image.Image, content_radius: float, background_color: str, padding: int = CROP_PADDING) -> Image.Image:
+    """Crop to a square centered on CENTER and draw a circular outline just
+    outside the farthest-placed word, so the whole cloud reads as one badge.
+    Pads onto a fresh background-colored canvas rather than a raw PIL crop --
+    if the circle needs to extend past the original canvas, a raw crop would
+    fill that area with black instead of the background color."""
+    circle_radius = int(content_radius + padding)
+    margin = OUTLINE_WIDTH + 4
+    side = 2 * circle_radius + 2 * margin
+    left = CENTER - side // 2
+    top = CENTER - side // 2
+
+    result = Image.new("RGB", (side, side), background_color)
+    src_left, src_top = max(0, left), max(0, top)
+    src_right, src_bottom = min(img.width, left + side), min(img.height, top + side)
+    if src_right > src_left and src_bottom > src_top:
+        region = img.crop((src_left, src_top, src_right, src_bottom))
+        result.paste(region, (src_left - left, src_top - top))
+
+    mid = side // 2
+    ImageDraw.Draw(result).ellipse(
+        (mid - circle_radius, mid - circle_radius, mid + circle_radius, mid + circle_radius),
+        outline=OUTLINE_COLOR, width=OUTLINE_WIDTH,
+    )
+    return result
 
 
 def generate_one(counts: Counter, background_color: str, text_colors: list[str]) -> Image.Image:
@@ -167,6 +184,7 @@ def generate_one(counts: Counter, background_color: str, text_colors: list[str])
     occupancy = np.zeros((CANVAS, CANVAS), dtype=bool)
 
     placed = 0
+    max_content_radius = 0.0
     for rank, (word, freq) in enumerate(ranked):
         font = load_font(word_font_size(freq, max_freq, min_freq))
         mask = render_word_mask(word, font)
@@ -186,8 +204,11 @@ def generate_one(counts: Counter, background_color: str, text_colors: list[str])
         occupancy[y:y + ph, x:x + pw] |= padded_mask
         placed += 1
 
+        for cx, cy in ((x, y), (x + pw, y), (x, y + ph), (x + pw, y + ph)):
+            max_content_radius = max(max_content_radius, math.hypot(cx - CENTER, cy - CENTER))
+
     print(f"  placed {placed}/{len(ranked)} words")
-    return crop_to_content(canvas_img, background_color)
+    return crop_to_circle(canvas_img, max_content_radius, background_color)
 
 
 BACKGROUND_COLOR = "#7EBC89"  # chosen after comparing all 5 palette colors as backgrounds
