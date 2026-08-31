@@ -12,15 +12,15 @@
   ![last updated](https://img.shields.io/badge/last_updated-2026/08/31_18%3A25_UTC-lightgrey?style=flat-square)
   <!--END_SECTION:tenure-squarespace-->
 
-- 🎓 I've been coding since <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/ucf-logo.png" alt="UCF" width="15" height="20" align="center" /> Monday, August 24, 2020, when I started as a Freshman in Computer Science at the University of Central Florida.
+- <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/ucf-logo.png" alt="UCF" width="15" height="20" align="center" /> I've been coding since Monday, August 24, 2020, when I started as a Freshman in Computer Science at the University of Central Florida.
 
   <!--START_SECTION:tenure-coding-->
-  ⌨️ That's **6.0 years** / **72.2 months** / **2,198.8 days** / **52,770.4 hours** / **3,166,225.2 minutes** / **189,973,511.2 seconds** of coding (allegedly).
+  👨‍💻 That's **6.0 years** / **72.2 months** / **2,198.8 days** / **52,770.4 hours** / **3,166,225.2 minutes** / **189,973,511.2 seconds** of coding (allegedly).
 
   ![last updated](https://img.shields.io/badge/last_updated-2026/08/31_18%3A25_UTC-lightgrey?style=flat-square)
   <!--END_SECTION:tenure-coding-->
 
-- 👨‍💻 Check out my [personal website!](https://aldrich-agabin.squarespace.com)
+- ⭐ Check out my [personal website!](https://aldrich-agabin.squarespace.com)
 
 - 📫 How to reach me **<aldrichagabin@gmail.com>**
 
