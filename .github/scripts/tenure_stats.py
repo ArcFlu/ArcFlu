@@ -123,13 +123,13 @@ def main() -> None:
     coding_elapsed_seconds = (now - UCF_START).total_seconds()
 
     sqsp_body = (
-        f"<sub><em>🎉 That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE.</em></sub>\n\n"
-        f"<sub><em>💼 Of that, {format_units(work_hours * HOUR_SECONDS)} has actually been spent "
+        f"<sub>🎉 <em>That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE.</em></sub>\n\n"
+        f"<sub>💼 <em>Of that, {format_units(work_hours * HOUR_SECONDS)} has actually been spent "
         f"working (8 hrs/weekday, minus Squarespace holidays). "
         f"(last updated {last_updated})</em></sub>"
     )
     coding_body = (
-        f"<sub><em>👨‍💻 That's {format_units(coding_elapsed_seconds)} of coding (allegedly). "
+        f"<sub>👨‍💻 <em>That's {format_units(coding_elapsed_seconds)} of coding (allegedly). "
         f"(last updated {last_updated})</em></sub>"
     )
 
