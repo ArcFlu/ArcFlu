@@ -6,7 +6,6 @@ Stdlib only, deliberately -- no new dependencies for a personal profile README.
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote
 
 README_PATH = Path(__file__).resolve().parents[2] / "README.md"
 
@@ -30,14 +29,6 @@ def format_units(total_seconds: float) -> str:
         f"{total_seconds / MINUTE_SECONDS:,.1f} minutes / "
         f"{total_seconds:,.1f} seconds"
     )
-
-
-def badge_url(label: str, message: str, color: str) -> str:
-    """shields.io escapes literal '-' as '--' and spaces as '_' in badge path segments."""
-    def escape(s: str) -> str:
-        return s.replace("-", "--").replace(" ", "_")
-
-    return f"https://img.shields.io/badge/{quote(escape(label))}-{quote(escape(message))}-{color}?style=flat-square"
 
 
 def nth_weekday_of_month(year: int, month: int, weekday: int, n: int) -> datetime:
@@ -114,7 +105,7 @@ def replace_section(content: str, section: str, new_body: str) -> str:
 
 def main() -> None:
     now = datetime.now(timezone.utc)
-    last_updated_badge = f"![last updated]({badge_url('last updated', now.strftime('%Y/%m/%d %H:%M UTC'), 'lightgrey')})"
+    last_updated = now.strftime("%Y/%m/%d %H:%M UTC")
 
     sqsp_elapsed_seconds = (now - SQSP_START).total_seconds()
     work_hours = business_hours_since(SQSP_START, now)
@@ -123,12 +114,12 @@ def main() -> None:
     sqsp_body = (
         f"<sub><em>🎉 That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE "
         f"-- or, at a very scientific 8 hours/workday (weekdays minus Squarespace holidays), "
-        f"{format_units(work_hours * HOUR_SECONDS)} of actual keyboard-touching.</em></sub>\n\n"
-        f"{last_updated_badge}"
+        f"{format_units(work_hours * HOUR_SECONDS)} of actual keyboard-touching. "
+        f"(last updated {last_updated})</em></sub>"
     )
     coding_body = (
-        f"<sub><em>👨‍💻 That's {format_units(coding_elapsed_seconds)} of coding (allegedly).</em></sub>\n\n"
-        f"{last_updated_badge}"
+        f"<sub><em>👨‍💻 That's {format_units(coding_elapsed_seconds)} of coding (allegedly). "
+        f"(last updated {last_updated})</em></sub>"
     )
 
     content = README_PATH.read_text()
