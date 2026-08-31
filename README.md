@@ -74,7 +74,7 @@
 
 ### 📊 Stats
 
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/claude.svg" alt="Claude" width="20" height="20" align="center" /> **Claude Code Usage:**
+<img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/claude-icon.svg" alt="Claude" width="20" height="20" align="center" /> **Claude Code Usage:**
 
 ![Claude Tokens](https://tokscale.ai/api/badge/arcflu/svg?metric=tokens&compact=1&style=flat&label=Claude%20Tokens&color=0e75b6)
 ![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=blue)
