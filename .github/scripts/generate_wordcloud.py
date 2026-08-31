@@ -150,29 +150,30 @@ OUTLINE_WIDTH = 5
 
 
 def crop_to_circle(img: Image.Image, content_radius: float, background_color: str, padding: int = CROP_PADDING) -> Image.Image:
-    """Crop to a square centered on CENTER and draw a circular outline just
-    outside the farthest-placed word, so the whole cloud reads as one badge.
-    Pads onto a fresh background-colored canvas rather than a raw PIL crop --
-    if the circle needs to extend past the original canvas, a raw crop would
-    fill that area with black instead of the background color."""
+    """Clip the image itself to a circle -- transparent outside, not just a
+    square canvas with a circle drawn on top of it -- sized to just past the
+    farthest-placed word, with an outline at the boundary."""
     circle_radius = int(content_radius + padding)
     margin = OUTLINE_WIDTH + 4
     side = 2 * circle_radius + 2 * margin
     left = CENTER - side // 2
     top = CENTER - side // 2
 
-    result = Image.new("RGB", (side, side), background_color)
+    bg_layer = Image.new("RGB", (side, side), background_color)
     src_left, src_top = max(0, left), max(0, top)
     src_right, src_bottom = min(img.width, left + side), min(img.height, top + side)
     if src_right > src_left and src_bottom > src_top:
         region = img.crop((src_left, src_top, src_right, src_bottom))
-        result.paste(region, (src_left - left, src_top - top))
+        bg_layer.paste(region, (src_left - left, src_top - top))
 
     mid = side // 2
-    ImageDraw.Draw(result).ellipse(
-        (mid - circle_radius, mid - circle_radius, mid + circle_radius, mid + circle_radius),
-        outline=OUTLINE_COLOR, width=OUTLINE_WIDTH,
-    )
+    bounds = (mid - circle_radius, mid - circle_radius, mid + circle_radius, mid + circle_radius)
+    mask = Image.new("L", (side, side), 0)
+    ImageDraw.Draw(mask).ellipse(bounds, fill=255)
+
+    result = Image.new("RGBA", (side, side), (0, 0, 0, 0))
+    result.paste(bg_layer, (0, 0), mask)
+    ImageDraw.Draw(result).ellipse(bounds, outline=OUTLINE_COLOR, width=OUTLINE_WIDTH)
     return result
 
 
