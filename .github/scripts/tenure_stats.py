@@ -23,12 +23,12 @@ MINUTE_SECONDS = 60.0
 def format_units(total_seconds: float) -> str:
     """Each unit expresses the *entire* elapsed duration, not a decomposed breakdown."""
     return (
-        f"**{total_seconds / YEAR_SECONDS:,.1f} years** / "
-        f"**{total_seconds / MONTH_SECONDS:,.1f} months** / "
-        f"**{total_seconds / DAY_SECONDS:,.1f} days** / "
-        f"**{total_seconds / HOUR_SECONDS:,.1f} hours** / "
-        f"**{total_seconds / MINUTE_SECONDS:,.1f} minutes** / "
-        f"**{total_seconds:,.1f} seconds**"
+        f"{total_seconds / YEAR_SECONDS:,.1f} years / "
+        f"{total_seconds / MONTH_SECONDS:,.1f} months / "
+        f"{total_seconds / DAY_SECONDS:,.1f} days / "
+        f"{total_seconds / HOUR_SECONDS:,.1f} hours / "
+        f"{total_seconds / MINUTE_SECONDS:,.1f} minutes / "
+        f"{total_seconds:,.1f} seconds"
     )
 
 
@@ -121,13 +121,13 @@ def main() -> None:
     coding_elapsed_seconds = (now - UCF_START).total_seconds()
 
     sqsp_body = (
-        f"🎉 That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE!\n\n"
-        f"💼 At a very scientific 8 hours/workday (weekdays minus Squarespace holidays), "
-        f"that's {format_units(work_hours * HOUR_SECONDS)} worth of actual keyboard-touching.\n\n"
+        f"<sub><em>🎉 That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE "
+        f"-- or, at a very scientific 8 hours/workday (weekdays minus Squarespace holidays), "
+        f"{format_units(work_hours * HOUR_SECONDS)} of actual keyboard-touching.</em></sub>\n\n"
         f"{last_updated_badge}"
     )
     coding_body = (
-        f"⌨️ That's {format_units(coding_elapsed_seconds)} of coding (allegedly).\n\n"
+        f"<sub><em>👨‍💻 That's {format_units(coding_elapsed_seconds)} of coding (allegedly).</em></sub>\n\n"
         f"{last_updated_badge}"
     )
 
