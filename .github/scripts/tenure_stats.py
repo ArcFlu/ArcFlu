@@ -19,15 +19,25 @@ HOUR_SECONDS = 3600.0
 MINUTE_SECONDS = 60.0
 
 
+def scaled(n: float) -> str:
+    """Abbreviate large numbers with K/M/B suffixes for readability."""
+    for threshold, suffix in ((1_000_000_000, "B"), (1_000_000, "M"), (1_000, "K")):
+        if n >= threshold:
+            return f"{n / threshold:,.1f}{suffix}"
+    return f"{n:,.1f}"
+
+
 def format_units(total_seconds: float) -> str:
-    """Each unit expresses the *entire* elapsed duration, not a decomposed breakdown."""
+    """Each unit expresses the *entire* elapsed duration, not a decomposed breakdown.
+    Minutes/seconds are scale-abbreviated (e.g. 72.5M) -- raw comma-separated values
+    in the millions are hard to parse at a glance and undercut the joke."""
     return (
         f"{total_seconds / YEAR_SECONDS:,.1f} years / "
         f"{total_seconds / MONTH_SECONDS:,.1f} months / "
         f"{total_seconds / DAY_SECONDS:,.1f} days / "
         f"{total_seconds / HOUR_SECONDS:,.1f} hours / "
-        f"{total_seconds / MINUTE_SECONDS:,.1f} minutes / "
-        f"{total_seconds:,.1f} seconds"
+        f"{scaled(total_seconds / MINUTE_SECONDS)} minutes / "
+        f"{scaled(total_seconds)} seconds"
     )
 
 
