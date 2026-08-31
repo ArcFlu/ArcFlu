@@ -2,7 +2,23 @@
 
 ### 👋 Intro
 
-- <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I’m currently working at Squarespace! 
+- <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I’m currently working at Squarespace! I interned Summer 2023, and have been a full-time SWE since May 15th, 2024.
+
+  <!--START_SECTION:tenure-squarespace-->
+  🎉 That's **2.3 years** / **27.6 months** / **838.8 days** / **20,130.3 hours** / **1,207,815.5 minutes** / **72,468,932.1 seconds** of being a Squarespace SWE!
+
+  💼 At a very scientific 8 hours/workday (weekdays minus Squarespace holidays), that's **0.5 years** / **6.3 months** / **192.0 days** / **4,608.0 hours** / **276,480.0 minutes** / **16,588,800.0 seconds** worth of actual keyboard-touching.
+
+  <sub>🕐 last updated 2026-08-31 18:15 UTC</sub>
+  <!--END_SECTION:tenure-squarespace-->
+
+- 🎓 I've been coding since <img src="https://upload.wikimedia.org/wikipedia/en/9/99/University_of_Central_Florida_logo.svg" alt="UCF" width="20" height="20" align="center" /> Monday, August 24, 2020, when I started as a Freshman in Computer Science at the University of Central Florida.
+
+  <!--START_SECTION:tenure-coding-->
+  ⌨️ That's **6.0 years** / **72.2 months** / **2,198.8 days** / **52,770.3 hours** / **3,166,215.5 minutes** / **189,972,932.1 seconds** of coding (allegedly).
+
+  <sub>🕐 last updated 2026-08-31 18:15 UTC</sub>
+  <!--END_SECTION:tenure-coding-->
 
 - 👨‍💻 Check out my [personal website!](https://aldrich-agabin.squarespace.com)
 
