@@ -2,6 +2,10 @@
 
 ### 👋 Intro
 
+- ⭐ Check out my [personal website!](https://aldrich-agabin.squarespace.com)
+
+- 📫 How to reach me **<aldrichagabin@gmail.com>**
+
 - <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I’m currently working at Squarespace! I interned Summer 2023, and have been a full-time SWE since May 15th, 2024.
 
   <!--START_SECTION:tenure-squarespace-->
@@ -15,10 +19,6 @@
   <!--START_SECTION:tenure-coding-->
   <sub>👨‍💻 <em>That's 6.0 years / 72.2 months / 2.2K days / 52.8K hours / 3.2M minutes / 190.0M seconds of coding (allegedly). (last updated 2026/08/31 20:10 UTC)</em></sub>
   <!--END_SECTION:tenure-coding-->
-
-- ⭐ Check out my [personal website!](https://aldrich-agabin.squarespace.com)
-
-- 📫 How to reach me **<aldrichagabin@gmail.com>**
 
 <h3 align="left">Connect with me:</h3>
   <p align="left">
