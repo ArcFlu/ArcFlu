@@ -29,13 +29,14 @@ def scaled(n: float) -> str:
 
 def format_units(total_seconds: float) -> str:
     """Each unit expresses the *entire* elapsed duration, not a decomposed breakdown.
-    Minutes/seconds are scale-abbreviated (e.g. 72.5M) -- raw comma-separated values
-    in the millions are hard to parse at a glance and undercut the joke."""
+    Days/hours/minutes/seconds are scale-abbreviated (e.g. 20.1K, 72.5M) -- raw
+    comma-separated values in the thousands+ are hard to parse at a glance and
+    undercut the joke. Years/months stay plain since they rarely cross 1,000."""
     return (
         f"{total_seconds / YEAR_SECONDS:,.1f} years / "
         f"{total_seconds / MONTH_SECONDS:,.1f} months / "
-        f"{total_seconds / DAY_SECONDS:,.1f} days / "
-        f"{total_seconds / HOUR_SECONDS:,.1f} hours / "
+        f"{scaled(total_seconds / DAY_SECONDS)} days / "
+        f"{scaled(total_seconds / HOUR_SECONDS)} hours / "
         f"{scaled(total_seconds / MINUTE_SECONDS)} minutes / "
         f"{scaled(total_seconds)} seconds"
     )
