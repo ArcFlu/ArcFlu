@@ -71,7 +71,10 @@
 
 ### 📊 Stats
 
-<img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/claude.svg" alt="Claude" width="20" height="20" align="center" /> **Claude Code Usage:**
+
+![Claude Tokens](https://tokscale.ai/api/badge/arcflu/svg?metric=tokens&compact=1&style=flat&label=Claude%20Tokens&color=0e75b6)
+![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=blue)
 
 ![Total Commits](https://github-stats-extended.vercel.app/api?username=arcflu&show_icons=false&hide=stars,issues,contribs&include_all_commits=true&hide_title=true&hide_border=true)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=arcflu&hide_border=true)
@@ -81,11 +84,6 @@
 
 
 <!--END_SECTION:waka-top-->
-
-**Claude Code Usage:**
-
-![Claude Tokens](https://tokscale.ai/api/badge/arcflu/svg?metric=tokens&compact=1&style=flat&label=Claude%20Tokens&color=0e75b6)
-![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=blue)
 
 <!--START_SECTION:waka-->
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-170%20hrs%2048%20mins-blue?style=flat)
@@ -149,4 +147,6 @@ Composer                 0 lines             ░░░░░░░░░░░�
 
  Last Updated on 2026/08/31 16:32:51 UTC
 <!--END_SECTION:waka-->
+
+<img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
