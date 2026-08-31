@@ -2,7 +2,7 @@
 
 ### 👋 Intro
 
-- 🔭 I’m currently working at <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> Squarespace!
+- <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I’m currently working at Squarespace! 
 
 - 👨‍💻 Check out my [personal website!](https://aldrich-agabin.squarespace.com)
 
