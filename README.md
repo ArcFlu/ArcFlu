@@ -121,6 +121,9 @@
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:waka-top-->
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C054%20hrs%2041%20mins-blue?style=flat)
+
+
 <!--END_SECTION:waka-top-->
 
 <h3 align="left">Claude Code Usage:</h3>
