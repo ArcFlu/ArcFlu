@@ -1,3 +1,5 @@
+<img width="1470" alt="image" src="https://github.com/ArcFlu/ArcFlu/assets/93015179/9197e2d2-9821-42cd-bdd7-66e67441bf15">
+
 ### 👋 Intro
 
 - 🔭 I’m currently working at Squarespace!
