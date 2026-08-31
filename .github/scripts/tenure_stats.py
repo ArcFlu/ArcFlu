@@ -43,19 +43,6 @@ def format_units(total_seconds: float) -> str:
     )
 
 
-def dog_years(total_seconds: float) -> float:
-    return (total_seconds / YEAR_SECONDS) * 7
-
-
-def godot_frames_at_60fps(total_seconds: float) -> str:
-    return scaled(total_seconds * 60)
-
-
-def pomodoro_coffees(total_seconds: float) -> str:
-    """One coffee per 25-minute pomodoro."""
-    return scaled(total_seconds / (25 * 60))
-
-
 def repo_commit_count() -> int:
     result = subprocess.run(
         ["git", "rev-list", "--count", "HEAD"],
@@ -150,15 +137,11 @@ def main() -> None:
     sqsp_body = (
         f"<sub>🎉 <em>That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE.</em></sub>\n\n"
         f"<sub>💼 <em>Of that, {format_units(work_hours * HOUR_SECONDS)} has actually been spent "
-        f"working (8 hrs/weekday, minus Squarespace holidays).</em></sub>\n\n"
-        f"<sub>🐕 <em>In dog years, that's {dog_years(sqsp_elapsed_seconds):,.1f} years. "
-        f"☕ Or about {pomodoro_coffees(sqsp_elapsed_seconds)} pomodoro-coffees (one cup per 25-minute pomodoro). "
+        f"working (8 hrs/weekday, minus Squarespace holidays). "
         f"(last updated {last_updated})</em></sub>"
     )
     coding_body = (
-        f"<sub>👨‍💻 <em>That's {format_units(coding_elapsed_seconds)} of coding (allegedly).</em></sub>\n\n"
-        f"<sub>🎮 <em>At 60 FPS, that's {godot_frames_at_60fps(coding_elapsed_seconds)} Godot frames' worth of dev "
-        f"time. 🐕 Or {dog_years(coding_elapsed_seconds):,.1f} dog-years of debugging. "
+        f"<sub>👨‍💻 <em>That's {format_units(coding_elapsed_seconds)} of coding (allegedly). "
         f"(last updated {last_updated})</em></sub>"
     )
     bug_count = repo_commit_count()
