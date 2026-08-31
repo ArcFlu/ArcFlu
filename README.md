@@ -120,68 +120,14 @@
 
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
+<!--START_SECTION:waka-top-->
+<!--END_SECTION:waka-top-->
+
+<h3 align="left">Claude Code Usage:</h3>
+
+![Claude Tokens](https://tokscale.ai/api/badge/arcflu/svg?metric=tokens&compact=1&style=flat&label=Claude%20Tokens&color=0e75b6)
+![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=blue)
+
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C054%20hrs%2041%20mins-blue?style=flat)
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-170%20hrs%2048%20mins-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 277.5 kB Used in GitHub's Storage 
- > 
-> 🏆 336 Contributions in the Year 2026
- > 
-> 💼 Opted to Hire
- > 
-> 📜 14 Public Repositories 
- > 
-> 🔑 14 Private Repositories 
- > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                1412 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.16 % 
-🌆 Daytime                2313 commits        █████░░░░░░░░░░░░░░░░░░░░   19.91 % 
-🌃 Evening                3749 commits        ████████░░░░░░░░░░░░░░░░░   32.27 % 
-🌙 Night                  4142 commits        █████████░░░░░░░░░░░░░░░░   35.66 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   1898 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.34 % 
-Tuesday                  1735 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.94 % 
-Wednesday                1588 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.67 % 
-Thursday                 1411 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.15 % 
-Friday                   1348 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.60 % 
-Saturday                 1575 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
-Sunday                   2061 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.74 % 
-```
-
-
-🤖 **AI Coding This Week** 
-
-```text
-⏱ AI Coding Time: 3 hrs 21 mins (100.0%)
-
-✍️ 1,334 lines written by AI, 0 lines written by hand (100.0% AI-written)
-
-🔤 2,084,647 Input Tokens, 209,504 Output Tokens
-
-💵 $21.64 Estimated AI Cost This Week
-
-🧠 20 AI Sessions, 62 AI Prompts
-
-Sonnet                   1,452 lines         █████████████████████████   100.00 % 
-Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 2,046 characters per prompt
-🔁 Iterative Prompter — average 3 prompts per session
-🚀 High AI Trust — 0.0% of changed lines were hand-edited
-```
-
-
- Last Updated on 2026/08/30 21:20:42 UTC
 <!--END_SECTION:waka-->
 
