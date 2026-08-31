@@ -84,15 +84,6 @@
 
 ---
 
-### 🎮 Currently Building
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/godot/godot-original.svg" alt="godot" width="16" height="16" align="center" /> Two Godot side quests, when the day job allows:
-
-- **[dodge-the-slimes](https://github.com/ArcFlu/dodge-the-slimes)** — a game made during my company's Spring 2025 Hackweek. Dodge slimes in-game; dodge responsibilities IRL.
-- **[book-keeper](https://github.com/ArcFlu/book-keeper)** — an idle game about reading books and compound interest. Basically a spreadsheet with better vibes.
-
----
-
 ### ☁️ What I Actually Talk About (Commit Messages + PR Titles)
 
 <p align="center">
