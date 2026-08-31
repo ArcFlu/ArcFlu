@@ -4,6 +4,7 @@
 Stdlib only, deliberately -- no new dependencies for a personal profile README.
 """
 import re
+import subprocess
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -40,6 +41,30 @@ def format_units(total_seconds: float) -> str:
         f"{scaled(total_seconds / MINUTE_SECONDS)} minutes / "
         f"{scaled(total_seconds)} seconds"
     )
+
+
+def dog_years(total_seconds: float) -> float:
+    return (total_seconds / YEAR_SECONDS) * 7
+
+
+def godot_frames_at_60fps(total_seconds: float) -> str:
+    return scaled(total_seconds * 60)
+
+
+def pomodoro_coffees(total_seconds: float) -> str:
+    """One coffee per 25-minute pomodoro."""
+    return scaled(total_seconds / (25 * 60))
+
+
+def repo_commit_count() -> int:
+    result = subprocess.run(
+        ["git", "rev-list", "--count", "HEAD"],
+        cwd=README_PATH.parent,
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    return int(result.stdout.strip())
 
 
 def nth_weekday_of_month(year: int, month: int, weekday: int, n: int) -> datetime:
@@ -125,17 +150,28 @@ def main() -> None:
     sqsp_body = (
         f"<sub>🎉 <em>That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE.</em></sub>\n\n"
         f"<sub>💼 <em>Of that, {format_units(work_hours * HOUR_SECONDS)} has actually been spent "
-        f"working (8 hrs/weekday, minus Squarespace holidays). "
+        f"working (8 hrs/weekday, minus Squarespace holidays).</em></sub>\n\n"
+        f"<sub>🐕 <em>In dog years, that's {dog_years(sqsp_elapsed_seconds):,.1f} years. "
+        f"☕ Or about {pomodoro_coffees(sqsp_elapsed_seconds)} pomodoro-coffees (one cup per 25-minute pomodoro). "
         f"(last updated {last_updated})</em></sub>"
     )
     coding_body = (
-        f"<sub>👨‍💻 <em>That's {format_units(coding_elapsed_seconds)} of coding (allegedly). "
+        f"<sub>👨‍💻 <em>That's {format_units(coding_elapsed_seconds)} of coding (allegedly).</em></sub>\n\n"
+        f"<sub>🎮 <em>At 60 FPS, that's {godot_frames_at_60fps(coding_elapsed_seconds)} Godot frames' worth of dev "
+        f"time. 🐕 Or {dog_years(coding_elapsed_seconds):,.1f} dog-years of debugging. "
+        f"(last updated {last_updated})</em></sub>"
+    )
+    bug_count = repo_commit_count()
+    bug_body = (
+        f"<sub>🐛 <em>Bugs shipped to this repo (lifetime): {bug_count} (allegedly, one per commit). "
+        f"🔧 Bugs fixed: {max(0, bug_count - 1)}. 📉 Net: we're perpetually 1 bug behind. "
         f"(last updated {last_updated})</em></sub>"
     )
 
     content = README_PATH.read_text()
     content = replace_section(content, "tenure-squarespace", sqsp_body)
     content = replace_section(content, "tenure-coding", coding_body)
+    content = replace_section(content, "bug-counter", bug_body)
     README_PATH.write_text(content)
 
 
