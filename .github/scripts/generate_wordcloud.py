@@ -48,7 +48,7 @@ STOPWORDS = {
     "would", "will", "pr", "merge", "pull", "request", "branch", "master", "main",
 }
 
-PALETTE = ["#C15F3C", "#8C86AA", "#D9B88F", "#7EBC89", "#247BA0"]  # C1DBB3 (sage) swapped for a brown-cream -- too low-contrast against the green background
+PALETTE = ["#C15F3C", "#8C86AA", "#E0EDD9", "#7EBC89", "#247BA0"]  # original sage (C1DBB3) blended ~50% toward white for contrast
 GOLDEN_ANGLE = math.pi * (3 - math.sqrt(5))  # ~137.5 degrees
 
 CANVAS = 1800

@@ -96,7 +96,7 @@
 ### ☁️ What I Actually Talk About (Commit Messages + PR Titles)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/wordcloud.png?v=3" alt="Word cloud of commit messages and PR titles" width="400" />
+  <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/wordcloud.png?v=4" alt="Word cloud of commit messages and PR titles" width="400" />
 </p>
 
 <sub><em>Generated locally from my commit history + PR titles (personal + work repos) -- not auto-updating, refreshed whenever I feel like it.</em></sub>
