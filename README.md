@@ -97,6 +97,16 @@
 
 ---
 
+### ☁️ What I Actually Talk About (Commit Messages + PR Titles)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/wordcloud.png" alt="Word cloud of commit messages and PR titles" width="400" />
+</p>
+
+<sub><em>Generated locally from my commit history + PR titles (personal + work repos) -- not auto-updating, refreshed whenever I feel like it.</em></sub>
+
+---
+
 ### 📊 Stats
 
 <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/claude-icon.svg" alt="Claude" width="20" height="20" align="center" /> **Claude Code Usage:**
