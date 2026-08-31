@@ -2,7 +2,23 @@
 
 ### 👋 Intro
 
-- <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I’m currently working at Squarespace! 
+- <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I’m currently working at Squarespace! I interned Summer 2023, and have been a full-time SWE since May 15th, 2024.
+
+  <!--START_SECTION:tenure-squarespace-->
+  🎉 That's **2.3 years** / **27.6 months** / **838.8 days** / **20,130.4 hours** / **1,207,825.2 minutes** / **72,469,511.2 seconds** of being a Squarespace SWE!
+
+  💼 At a very scientific 8 hours/workday (weekdays minus Squarespace holidays), that's **0.5 years** / **6.3 months** / **192.0 days** / **4,608.0 hours** / **276,480.0 minutes** / **16,588,800.0 seconds** worth of actual keyboard-touching.
+
+  ![last updated](https://img.shields.io/badge/last_updated-2026/08/31_18%3A25_UTC-lightgrey?style=flat-square)
+  <!--END_SECTION:tenure-squarespace-->
+
+- 🎓 I've been coding since <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/ucf-logo.png" alt="UCF" width="15" height="20" align="center" /> Monday, August 24, 2020, when I started as a Freshman in Computer Science at the University of Central Florida.
+
+  <!--START_SECTION:tenure-coding-->
+  ⌨️ That's **6.0 years** / **72.2 months** / **2,198.8 days** / **52,770.4 hours** / **3,166,225.2 minutes** / **189,973,511.2 seconds** of coding (allegedly).
+
+  ![last updated](https://img.shields.io/badge/last_updated-2026/08/31_18%3A25_UTC-lightgrey?style=flat-square)
+  <!--END_SECTION:tenure-coding-->
 
 - 👨‍💻 Check out my [personal website!](https://aldrich-agabin.squarespace.com)
 
@@ -74,7 +90,7 @@
 
 ### 📊 Stats
 
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/claude.svg" alt="Claude" width="20" height="20" align="center" /> **Claude Code Usage:**
+<img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/claude-icon.svg" alt="Claude" width="20" height="20" align="center" /> **Claude Code Usage:**
 
 ![Claude Tokens](https://tokscale.ai/api/badge/arcflu/svg?metric=tokens&compact=1&style=flat&label=Claude%20Tokens&color=0e75b6)
 ![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=blue)
@@ -153,4 +169,8 @@ Composer                 0 lines             ░░░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
+
+<!--START_SECTION:stats-updated-->
+![last updated](https://img.shields.io/badge/last_updated-2026/08/31_18%3A26_UTC-lightgrey?style=flat-square)
+<!--END_SECTION:stats-updated-->
 
