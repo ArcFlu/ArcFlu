@@ -123,9 +123,9 @@ def main() -> None:
     coding_elapsed_seconds = (now - UCF_START).total_seconds()
 
     sqsp_body = (
-        f"<sub><em>🎉 That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE "
-        f"-- or, at a very scientific 8 hours/workday (weekdays minus Squarespace holidays), "
-        f"{format_units(work_hours * HOUR_SECONDS)} of actual keyboard-touching. "
+        f"<sub><em>🎉 That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE.</em></sub>\n\n"
+        f"<sub><em>💼 Of that, {format_units(work_hours * HOUR_SECONDS)} has actually been spent "
+        f"working (8 hrs/weekday, minus Squarespace holidays). "
         f"(last updated {last_updated})</em></sub>"
     )
     coding_body = (
