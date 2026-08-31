@@ -76,8 +76,9 @@
 ![Claude Tokens](https://tokscale.ai/api/badge/arcflu/svg?metric=tokens&compact=1&style=flat&label=Claude%20Tokens&color=0e75b6)
 ![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=blue)
 
-![Total Commits](https://github-stats-extended.vercel.app/api?username=arcflu&show_icons=false&hide=stars,issues,contribs&include_all_commits=true&hide_title=true&hide_border=true)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=arcflu&hide_border=true)
+
+![Total Commits](https://github-stats-extended.vercel.app/api?username=arcflu&show_icons=false&hide=stars,issues,contribs&include_all_commits=true&hide_title=true&hide_border=true)
 
 <!--START_SECTION:waka-top-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C054%20hrs%2041%20mins-blue?style=flat)
