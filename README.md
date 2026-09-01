@@ -116,7 +116,7 @@
 <!--END_SECTION:waka-top-->
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-170%20hrs%2048%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-177%20hrs%2013%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -142,23 +142,23 @@ Sunday                   2109 commits        ████░░░░░░░�
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 3 hrs 21 mins (100.0%)
+⏱ AI Coding Time: 9 hrs 18 mins (100.0%)
 
-✍️ 1,334 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 3,249 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 2,084,647 Input Tokens, 209,504 Output Tokens
+🔤 4,384,382 Input Tokens, 434,195 Output Tokens
 
-💵 $21.64 Estimated AI Cost This Week
+💵 $75.71 Estimated AI Cost This Week
 
-🧠 20 AI Sessions, 62 AI Prompts
+🧠 29 AI Sessions, 133 AI Prompts
 
-Sonnet                   1,452 lines         █████████████████████████   100.00 % 
+Sonnet                   3,550 lines         █████████████████████████   100.00 % 
 Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 2,046 characters per prompt
-🔁 Iterative Prompter — average 3 prompts per session
+📄 Detailed Prompter — average 924 characters per prompt
+🔁 Iterative Prompter — average 5 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
 
