@@ -103,7 +103,7 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=arcflu&hide_border=true)
 
-![Total Commits](https://github-stats-extended.vercel.app/api?username=arcflu&show_icons=false&hide=stars,issues,contribs&include_all_commits=true&hide_title=true&hide_border=true)
+![Total Commits](https://github-stats-extended.vercel.app/api?username=arcflu&show_icons=false&hide=stars,contribs&include_all_commits=true&hide_title=true&hide_border=true&hide_rank=true&show=reviews)
 
 <!--START_SECTION:bug-counter-->
 <sub>🐛 <em>Bugs shipped to this repo (lifetime): 938 (allegedly, one per commit). 🔧 Bugs fixed: 937. 📉 Net: we're perpetually 1 bug behind. (last updated 2026/08/31 20:10 UTC)</em></sub>
@@ -136,31 +136,6 @@ Thursday                 1411 commits        ███░░░░░░░░�
 Friday                   1364 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.42 % 
 Saturday                 1575 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.18 % 
 Sunday                   2109 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
-```
-
-
-🤖 **AI Coding This Week** 
-
-```text
-⏱ AI Coding Time: 13 hrs 32 mins (100.0%)
-
-✍️ 3,847 lines written by AI, 0 lines written by hand (100.0% AI-written)
-
-🔤 4,969,248 Input Tokens, 525,517 Output Tokens
-
-💵 $90.13 Estimated AI Cost This Week
-
-🧠 36 AI Sessions, 175 AI Prompts
-
-Sonnet                   4,187 lines         █████████████████████████   99.90 % 
-Opus                     4 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 % 
-Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 3,343 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
 
 
