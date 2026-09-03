@@ -122,28 +122,6 @@
 
 <!--START_SECTION:waka-->
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-181%20hrs%2048%20mins-blue?style=flat)
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                1629 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.64 % 
-🌆 Daytime                2427 commits        █████░░░░░░░░░░░░░░░░░░░░   20.31 % 
-🌃 Evening                3749 commits        ████████░░░░░░░░░░░░░░░░░   31.38 % 
-🌙 Night                  4142 commits        █████████░░░░░░░░░░░░░░░░   34.67 % 
-```
-📅 **I'm Most Productive on Monday** 
-
-```text
-Monday                   2157 commits        █████░░░░░░░░░░░░░░░░░░░░   18.05 % 
-Tuesday                  1735 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.52 % 
-Wednesday                1596 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.36 % 
-Thursday                 1411 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.81 % 
-Friday                   1364 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.42 % 
-Saturday                 1575 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.18 % 
-Sunday                   2109 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
-```
-
-
 <!--END_SECTION:waka-->
 
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
