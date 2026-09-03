@@ -104,9 +104,9 @@
 ![GitHub Streak](https://streak-stats.demolab.com/?user=arcflu&hide_border=true)
 
 <!--START_SECTION:contributions-->
-![Commits](https://img.shields.io/badge/Commits-645-blue?style=flat)
-![PRs](https://img.shields.io/badge/PRs-141-blue?style=flat)
-![PRs Reviewed](https://img.shields.io/badge/PRs_Reviewed-17-blue?style=flat)
+![Commits](https://img.shields.io/badge/Commits-1%2C973-blue?style=flat)
+![PRs](https://img.shields.io/badge/PRs-662-blue?style=flat)
+![PRs Reviewed](https://img.shields.io/badge/PRs_Reviewed-498-blue?style=flat)
 ![Issues](https://img.shields.io/badge/Issues-0-blue?style=flat)
 <!--END_SECTION:contributions-->
 
@@ -129,6 +129,6 @@
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:stats-updated-->
-![last updated](https://img.shields.io/badge/last_updated-2026/09/02_21%3A13_UTC-lightgrey?style=flat-square)
+![last updated](https://img.shields.io/badge/last_updated-2026/09/03_20%3A19_UTC-lightgrey?style=flat-square)
 <!--END_SECTION:stats-updated-->
 
