@@ -103,7 +103,12 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=arcflu&hide_border=true)
 
-![Total Commits](https://github-stats-extended.vercel.app/api?username=arcflu&show_icons=false&hide=stars,contribs&include_all_commits=true&hide_title=true&hide_border=true&hide_rank=true&show=reviews)
+<!--START_SECTION:contributions-->
+![Commits](https://img.shields.io/badge/Commits-645-blue?style=flat)
+![PRs](https://img.shields.io/badge/PRs-141-blue?style=flat)
+![PRs Reviewed](https://img.shields.io/badge/PRs_Reviewed-17-blue?style=flat)
+![Issues](https://img.shields.io/badge/Issues-0-blue?style=flat)
+<!--END_SECTION:contributions-->
 
 <!--START_SECTION:bug-counter-->
 <sub>🐛 <em>Bugs shipped to this repo (lifetime): 938 (allegedly, one per commit). 🔧 Bugs fixed: 937. 📉 Net: we're perpetually 1 bug behind. (last updated 2026/08/31 20:10 UTC)</em></sub>
