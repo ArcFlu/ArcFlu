@@ -41,6 +41,7 @@ jobs:
           SHOW_TOTAL_CODE_TIME: False
           SHOW_AI_CODING: False
           SHOW_LINES_OF_CODE: False
+          MAX_REPOS: 100
           SYMBOL_VERSION: 1
           SHOW_LOC_CHART: False
           SHOW_LANGUAGE_PER_REPO: False
