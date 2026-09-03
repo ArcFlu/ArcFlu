@@ -128,12 +128,11 @@ def main() -> None:
     totals = fetch_all_time_totals(token)
 
     labeled_counts = [
-        ("Commits", totals["totalCommitContributions"]),
-        ("PRs", totals["totalPullRequestContributions"]),
-        ("PRs Reviewed", totals["totalPullRequestReviewContributions"]),
-        ("Issues", totals["totalIssueContributions"]),
+        ("Commits", totals["totalCommitContributions"], "0e75b6"),
+        ("PRs", totals["totalPullRequestContributions"], "f97316"),
+        ("PRs Reviewed", totals["totalPullRequestReviewContributions"], "22c55e"),
     ]
-    badges = "\n".join(f"![{label}]({badge_url(label, f'{count:,}', 'blue')})" for label, count in labeled_counts)
+    badges = "\n".join(f"![{label}]({badge_url(label, f'{count:,}', color)})" for label, count, color in labeled_counts)
 
     content = README_PATH.read_text()
     content = replace_section(content, "contributions", badges)

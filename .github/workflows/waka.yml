@@ -49,8 +49,14 @@ jobs:
           SHOW_PROJECTS: False
           SHOW_OS: False
           SHOW_LANGUAGE: False
-          SHOW_COMMIT: False
-          SHOW_DAYS_OF_WEEK: False
+          # 25 is at/below our owned-repo count, which makes the action's own logic
+          # skip the "repos contributed to" query entirely (see main.py's
+          # collect_user_repositories: `if len(repositories) >= MAX_REPOS: skip`).
+          # That query is what pulls in hundreds of private Squarespace org repos
+          # now that GH_TOKEN is SSO-authorized, causing GitHub API rate-limit
+          # backoff and 10+ minute runs. Capping here keeps this chart fast and
+          # scoped to personal repos only.
+          MAX_REPOS: 25
           UPDATED_DATE_FORMAT: "%Y/%m/%d %H:%M:%S"
           SHOW_PROFILE_VIEWS: False
           SHOW_SHORT_INFO: False

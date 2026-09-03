@@ -99,15 +99,14 @@
 <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/claude-icon.svg" alt="Claude" width="20" height="20" align="center" /> **Claude Code Usage:**
 
 ![Claude Tokens](https://tokscale.ai/api/badge/arcflu/svg?metric=tokens&compact=1&style=flat&label=Claude%20Tokens&color=0e75b6)
-![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=blue)
+![Claude Cost](https://tokscale.ai/api/badge/arcflu/svg?metric=cost&compact=1&style=flat&label=Claude%20Cost&color=22c55e)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=arcflu&hide_border=true)
 
 <!--START_SECTION:contributions-->
-![Commits](https://img.shields.io/badge/Commits-1%2C973-blue?style=flat)
-![PRs](https://img.shields.io/badge/PRs-662-blue?style=flat)
-![PRs Reviewed](https://img.shields.io/badge/PRs_Reviewed-498-blue?style=flat)
-![Issues](https://img.shields.io/badge/Issues-0-blue?style=flat)
+![Commits](https://img.shields.io/badge/Commits-1%2C973-0e75b6?style=flat)
+![PRs](https://img.shields.io/badge/PRs-662-f97316?style=flat)
+![PRs Reviewed](https://img.shields.io/badge/PRs_Reviewed-498-22c55e?style=flat)
 <!--END_SECTION:contributions-->
 
 <!--START_SECTION:bug-counter-->
@@ -115,13 +114,13 @@
 <!--END_SECTION:bug-counter-->
 
 <!--START_SECTION:waka-top-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C066%20hrs%2028%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C066%20hrs%2028%20mins-0d9488?style=flat)
 
 
 <!--END_SECTION:waka-top-->
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-185%20hrs-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-185%20hrs-8b5cf6?style=flat)
 
 
 <!--END_SECTION:waka-->
@@ -129,6 +128,6 @@
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:stats-updated-->
-![last updated](https://img.shields.io/badge/last_updated-2026/09/03_20%3A19_UTC-lightgrey?style=flat-square)
+![last updated](https://img.shields.io/badge/last_updated-2026/09/03_20%3A23_UTC-lightgrey?style=flat-square)
 <!--END_SECTION:stats-updated-->
 
