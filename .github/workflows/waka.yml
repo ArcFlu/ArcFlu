@@ -5,6 +5,14 @@ on:
     # Runs at 12am IST
     - cron: '30 18 * * *'
   workflow_dispatch:
+
+# Prevents overlapping runs (e.g. a manual dispatch landing mid-cron) from racing
+# each other's git commits and failing the final push on an unresolved rebase
+# conflict -- queue instead of running concurrently.
+concurrency:
+  group: waka-readme
+  cancel-in-progress: false
+
 jobs:
   update-readme:
     name: Update Readme with Metrics
