@@ -92,4 +92,4 @@ jobs:
             exit 0
           fi
           git commit -m "Update stats last-updated badge"
-          git push || (git pull --rebase && git push)
+          git push || (git fetch origin main && git rebase -X theirs origin/main && git push)
