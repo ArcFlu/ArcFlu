@@ -92,4 +92,4 @@ jobs:
             exit 0
           fi
           git commit -m "Update stats last-updated badge"
-          git push || (git pull --rebase -X ours && git push)
+          git push || (git pull --rebase && git push) || (git rebase --abort || true; git reset --hard origin/main; echo "Remote README changed during run; skipping this commit.")
