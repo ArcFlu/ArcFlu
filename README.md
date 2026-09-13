@@ -114,13 +114,13 @@
 <!--END_SECTION:bug-counter-->
 
 <!--START_SECTION:waka-top-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C076%20hrs%2058%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C076%20hrs%2058%20mins-0d9488?style=flat)
 
 
 <!--END_SECTION:waka-top-->
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-196%20hrs%2041%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-196%20hrs%2041%20mins-8b5cf6?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -149,6 +149,6 @@ Sunday                   2244 commits        ████░░░░░░░�
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:stats-updated-->
-![last updated](https://img.shields.io/badge/last_updated-2026/09/10_21%3A05_UTC-lightgrey?style=flat-square)
+![last updated](https://img.shields.io/badge/last_updated-2026/09/13_21%3A03_UTC-lightgrey?style=flat-square)
 <!--END_SECTION:stats-updated-->
 
