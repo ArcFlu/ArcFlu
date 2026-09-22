@@ -114,7 +114,7 @@
 <!--END_SECTION:bug-counter-->
 
 <!--START_SECTION:waka-top-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C109%20hrs%2031%20mins-0d9488?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C112%20hrs%2046%20mins-blue?style=flat)
 
 
 <!--END_SECTION:waka-top-->
