@@ -9,15 +9,15 @@
 - <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I’m currently working at Squarespace! I interned Summer 2023, and have been a full-time SWE since May 15th, 2024.
 
   <!--START_SECTION:tenure-squarespace-->
-  <sub>🎉 <em>That's 2.4 years / 28.2 months / 859.7 days / 20.6K hours / 1.2M minutes / 74.3M seconds of being a Squarespace SWE.</em></sub>
+  <sub>🎉 <em>That's 2.4 years / 28.5 months / 866.8 days / 20.8K hours / 1.2M minutes / 74.9M seconds of being a Squarespace SWE.</em></sub>
 
-  <sub>💼 <em>Of that, 0.5 years / 6.5 months / 196.7 days / 4.7K hours / 283.2K minutes / 17.0M seconds has actually been spent working (8 hrs/weekday, minus Squarespace holidays). (last updated 2026/09/21 17:46 UTC)</em></sub>
+  <sub>💼 <em>Of that, 0.5 years / 6.5 months / 198.3 days / 4.8K hours / 285.6K minutes / 17.1M seconds has actually been spent working (8 hrs/weekday, minus Squarespace holidays). (last updated 2026/09/28 19:11 UTC)</em></sub>
   <!--END_SECTION:tenure-squarespace-->
 
 - <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/ucf-logo.png" alt="UCF" width="15" height="20" align="center" /> I've been coding since Monday, August 24, 2020, when I started as a Freshman in Computer Science at the University of Central Florida.
 
   <!--START_SECTION:tenure-coding-->
-  <sub>👨‍💻 <em>That's 6.1 years / 72.9 months / 2.2K days / 53.3K hours / 3.2M minutes / 191.8M seconds of coding (allegedly). (last updated 2026/09/21 17:46 UTC)</em></sub>
+  <sub>👨‍💻 <em>That's 6.1 years / 73.2 months / 2.2K days / 53.4K hours / 3.2M minutes / 192.4M seconds of coding (allegedly). (last updated 2026/09/28 19:11 UTC)</em></sub>
   <!--END_SECTION:tenure-coding-->
 
 <h3 align="left">Connect with me:</h3>
@@ -110,7 +110,7 @@
 <!--END_SECTION:contributions-->
 
 <!--START_SECTION:bug-counter-->
-<sub>🐛 <em>Bugs shipped to this repo (lifetime): 1027 (allegedly, one per commit). 🔧 Bugs fixed: 1026. 📉 Net: we're perpetually 1 bug behind. (last updated 2026/09/21 17:46 UTC)</em></sub>
+<sub>🐛 <em>Bugs shipped to this repo (lifetime): 1045 (allegedly, one per commit). 🔧 Bugs fixed: 1044. 📉 Net: we're perpetually 1 bug behind. (last updated 2026/09/28 19:11 UTC)</em></sub>
 <!--END_SECTION:bug-counter-->
 
 <!--START_SECTION:waka-top-->
