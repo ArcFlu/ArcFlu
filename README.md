@@ -104,7 +104,7 @@
 ![GitHub Streak](https://streak-stats.demolab.com/?user=arcflu&hide_border=true)
 
 <!--START_SECTION:contributions-->
-![Commits](https://img.shields.io/badge/Commits-2%2C233-0e75b6?style=flat)
+![Commits](https://img.shields.io/badge/Commits-2%2C241-0e75b6?style=flat)
 ![PRs](https://img.shields.io/badge/PRs-731-f97316?style=flat)
 ![PRs Reviewed](https://img.shields.io/badge/PRs_Reviewed-506-22c55e?style=flat)
 <!--END_SECTION:contributions-->
@@ -114,13 +114,13 @@
 <!--END_SECTION:bug-counter-->
 
 <!--START_SECTION:waka-top-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C129%20hrs%2016%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C129%20hrs%2016%20mins-0d9488?style=flat)
 
 
 <!--END_SECTION:waka-top-->
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-255%20hrs%2052%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-255%20hrs%2052%20mins-8b5cf6?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -149,6 +149,6 @@ Sunday                   2395 commits        ████░░░░░░░�
 <img src="https://komarev.com/ghpvc/?username=arcflu&label=Profile%20views&color=0e75b6&style=flat" alt="arcflu" />
 
 <!--START_SECTION:stats-updated-->
-![last updated](https://img.shields.io/badge/last_updated-2026/10/07_23%3A16_UTC-lightgrey?style=flat-square)
+![last updated](https://img.shields.io/badge/last_updated-2026/10/08_23%3A32_UTC-lightgrey?style=flat-square)
 <!--END_SECTION:stats-updated-->
 
