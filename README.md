@@ -106,8 +106,8 @@
 ![GitHub Streak](https://streak-stats.demolab.com/?user=arcflu&hide_border=true)
 
 <!--START_SECTION:contributions-->
-![Commits](https://img.shields.io/badge/Commits-2%2C804-0e75b6?style=flat)
-![PRs](https://img.shields.io/badge/PRs-798-f97316?style=flat)
+![Commits](https://img.shields.io/badge/Commits-2%2C791-0e75b6?style=flat)
+![PRs](https://img.shields.io/badge/PRs-797-f97316?style=flat)
 ![PRs Reviewed](https://img.shields.io/badge/PRs_Reviewed-522-22c55e?style=flat)
 <!--END_SECTION:contributions-->
 

@@ -10,15 +10,15 @@ totalPullRequestReviewContributions.
 
 Squarespace's private repos stopped counting toward those totals when org access
 ended with the Nov 2, 2026 layoff (GitHub only reports them as anonymized restricted
-contributions now), so totals up to the last run with access are frozen in
-BASELINE_TOTALS and only contributions after BASELINE_AS_OF are fetched live.
+contributions now), so totals through BASELINE_THROUGH are frozen in
+BASELINE_TOTALS and only later contributions are fetched live.
 """
 import json
 import os
 import re
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote
 
@@ -26,10 +26,11 @@ README_PATH = Path(__file__).resolve().parents[2] / "README.md"
 GITHUB_LOGIN = "arcflu"
 GRAPHQL_URL = "https://api.github.com/graphql"
 
-# From the 2026-10-31 Waka Readme run, the last one that could see Squarespace's repos.
-BASELINE_AS_OF = datetime(2026, 10, 31, 21, 49, 15, tzinfo=timezone.utc)
+# Totals through Squarespace's last day, captured by a one-off run on Nov 2, 2026 whose
+# token could still see its repos, using the year windows behind the totals published before.
+BASELINE_THROUGH = date(2026, 11, 2)
 BASELINE_TOTALS = {
-    "totalCommitContributions": 2764,
+    "totalCommitContributions": 2791,
     "totalPullRequestContributions": 797,
     "totalPullRequestReviewContributions": 522,
 }
@@ -64,25 +65,24 @@ def graphql(token: str, query: str, variables: dict) -> dict:
     return body["data"]
 
 
-def iso(dt: datetime) -> str:
-    return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-
-
-def year_windows(start: datetime, end: datetime):
+def year_windows(start: date, end: date):
+    """contributionsCollection ignores the time of day and treats `from` and `to` as
+    inclusive dates, so windows must not share a date."""
     cursor = start
-    while cursor < end:
-        window_end = min(datetime(cursor.year + 1, cursor.month, cursor.day, tzinfo=timezone.utc), end)
+    while cursor <= end:
+        window_end = min(cursor + timedelta(days=364), end)
         yield cursor, window_end
-        cursor = window_end
+        cursor = window_end + timedelta(days=1)
 
 
 def fetch_all_time_totals(token: str) -> dict:
     totals = dict(BASELINE_TOTALS)
-    for window_start, window_end in year_windows(BASELINE_AS_OF, datetime.now(timezone.utc)):
+    today = datetime.now(timezone.utc).date()
+    for window_start, window_end in year_windows(BASELINE_THROUGH + timedelta(days=1), today):
         data = graphql(
             token,
             CONTRIBUTIONS_QUERY,
-            {"login": GITHUB_LOGIN, "from": iso(window_start), "to": iso(window_end)},
+            {"login": GITHUB_LOGIN, "from": f"{window_start}T00:00:00Z", "to": f"{window_end}T23:59:59Z"},
         )["user"]["contributionsCollection"]
         for key in totals:
             totals[key] += data[key]
