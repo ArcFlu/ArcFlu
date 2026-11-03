@@ -17,6 +17,7 @@ jobs:
   update-readme:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
@@ -74,6 +75,9 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
+          # The waka steps above push to main; without this, checkout gets the pre-run
+          # commit and the commit below conflicts with theirs and is skipped.
+          ref: main
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Update all-time contribution stats
