@@ -4,10 +4,14 @@
 Stdlib only, deliberately -- no new dependencies for a personal profile README.
 
 GitHub's `contributionsCollection` query only accepts windows of at most one year,
-and there's no all-time total exposed directly, so this walks year-by-year from
-account creation to now and sums totalCommitContributions, totalPullRequestContributions,
-totalPullRequestReviewContributions, and totalIssueContributions -- the four inputs
-that make up the profile contribution graph's total.
+and there's no all-time total exposed directly, so this walks year-by-year and sums
+totalCommitContributions, totalPullRequestContributions, and
+totalPullRequestReviewContributions.
+
+Squarespace's private repos stopped counting toward those totals when org access
+ended with the Nov 2, 2026 layoff (GitHub only reports them as anonymized restricted
+contributions now), so totals up to the last run with access are frozen in
+BASELINE_TOTALS and only contributions after BASELINE_AS_OF are fetched live.
 """
 import json
 import os
@@ -22,11 +26,13 @@ README_PATH = Path(__file__).resolve().parents[2] / "README.md"
 GITHUB_LOGIN = "arcflu"
 GRAPHQL_URL = "https://api.github.com/graphql"
 
-CREATED_AT_QUERY = """
-query($login: String!) {
-  user(login: $login) { createdAt }
+# From the 2026-10-31 Waka Readme run, the last one that could see Squarespace's repos.
+BASELINE_AS_OF = datetime(2026, 10, 31, 21, 49, 15, tzinfo=timezone.utc)
+BASELINE_TOTALS = {
+    "totalCommitContributions": 2764,
+    "totalPullRequestContributions": 797,
+    "totalPullRequestReviewContributions": 522,
 }
-"""
 
 CONTRIBUTIONS_QUERY = """
 query($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -35,7 +41,6 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
       totalCommitContributions
       totalPullRequestContributions
       totalPullRequestReviewContributions
-      totalIssueContributions
     }
   }
 }
@@ -72,19 +77,8 @@ def year_windows(start: datetime, end: datetime):
 
 
 def fetch_all_time_totals(token: str) -> dict:
-    created_at = datetime.strptime(
-        graphql(token, CREATED_AT_QUERY, {"login": GITHUB_LOGIN})["user"]["createdAt"],
-        "%Y-%m-%dT%H:%M:%SZ",
-    ).replace(tzinfo=timezone.utc)
-    now = datetime.now(timezone.utc)
-
-    totals = {
-        "totalCommitContributions": 0,
-        "totalPullRequestContributions": 0,
-        "totalPullRequestReviewContributions": 0,
-        "totalIssueContributions": 0,
-    }
-    for window_start, window_end in year_windows(created_at, now):
+    totals = dict(BASELINE_TOTALS)
+    for window_start, window_end in year_windows(BASELINE_AS_OF, datetime.now(timezone.utc)):
         data = graphql(
             token,
             CONTRIBUTIONS_QUERY,

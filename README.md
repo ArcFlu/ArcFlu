@@ -2,22 +2,24 @@
 
 ### 👋 Intro
 
+- 🔎 I'm looking for my next role: full-stack or frontend, NYC hybrid. If your team is hiring or you know someone who is, an intro would mean a lot.
+
 - ⭐ Check out my [personal website!](https://aldrich-agabin.squarespace.com)
 
 - 📫 How to reach me **<aldrichagabin@gmail.com>**
 
-- <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I’m currently working at Squarespace! I interned Summer 2023, and have been a full-time SWE since May 15th, 2024.
+- <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/squarespace.svg" alt="Squarespace" width="16" height="16" align="center" /> I was a SWE on the Payments team at Squarespace. I interned Summer 2023, joined full time on May 15th, 2024, and was promoted to SWE III in March 2026. My role was part of a reduction on November 2nd, 2026.
 
   <!--START_SECTION:tenure-squarespace-->
-  <sub>🎉 <em>That's 2.5 years / 29.6 months / 901.9 days / 21.6K hours / 1.3M minutes / 77.9M seconds of being a Squarespace SWE.</em></sub>
+  <sub>🎉 <em>That was 2.5 years / 29.6 months / 902.0 days / 21.6K hours / 1.3M minutes / 77.9M seconds of being a Squarespace SWE.</em></sub>
 
-  <sub>💼 <em>Of that, 0.6 years / 6.8 months / 206.7 days / 5.0K hours / 297.6K minutes / 17.9M seconds has actually been spent working (8 hrs/weekday, minus Squarespace holidays). (last updated 2026/11/02 21:20 UTC)</em></sub>
+  <sub>💼 <em>Of that, 0.6 years / 6.8 months / 206.7 days / 5.0K hours / 297.6K minutes / 17.9M seconds was actually spent working (8 hrs/weekday, minus Squarespace holidays).</em></sub>
   <!--END_SECTION:tenure-squarespace-->
 
 - <img src="https://raw.githubusercontent.com/ArcFlu/ArcFlu/main/.github/assets/ucf-logo.png" alt="UCF" width="15" height="20" align="center" /> I've been coding since Monday, August 24, 2020, when I started as a Freshman in Computer Science at the University of Central Florida.
 
   <!--START_SECTION:tenure-coding-->
-  <sub>👨‍💻 <em>That's 6.2 years / 74.3 months / 2.3K days / 54.3K hours / 3.3M minutes / 195.4M seconds of coding (allegedly). (last updated 2026/11/02 21:20 UTC)</em></sub>
+  <sub>👨‍💻 <em>That's 6.2 years / 74.3 months / 2.3K days / 54.3K hours / 3.3M minutes / 195.4M seconds of coding (allegedly). (last updated 2026/11/03 03:08 UTC)</em></sub>
   <!--END_SECTION:tenure-coding-->
 
 <h3 align="left">Connect with me:</h3>
@@ -110,7 +112,7 @@
 <!--END_SECTION:contributions-->
 
 <!--START_SECTION:bug-counter-->
-<sub>🐛 <em>Bugs shipped to this repo (lifetime): 1151 (allegedly, one per commit). 🔧 Bugs fixed: 1150. 📉 Net: we're perpetually 1 bug behind. (last updated 2026/11/02 21:20 UTC)</em></sub>
+<sub>🐛 <em>Bugs shipped to this repo (lifetime): 1152 (allegedly, one per commit). 🔧 Bugs fixed: 1151. 📉 Net: we're perpetually 1 bug behind. (last updated 2026/11/03 03:08 UTC)</em></sub>
 <!--END_SECTION:bug-counter-->
 
 <!--START_SECTION:waka-top-->

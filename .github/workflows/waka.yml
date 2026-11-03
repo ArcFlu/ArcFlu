@@ -22,6 +22,8 @@ jobs:
     steps:
       - uses: anmol098/waka-readme-stats@master
         with:
+          # WakaTime API keys are write-only now (403 on stats endpoints), so this
+          # secret holds a personal OAuth token from https://wakatime.com/oauth.
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SECTION_NAME: "waka-top"

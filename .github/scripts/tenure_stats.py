@@ -11,6 +11,7 @@ from pathlib import Path
 README_PATH = Path(__file__).resolve().parents[2] / "README.md"
 
 SQSP_START = datetime(2024, 5, 15, tzinfo=timezone.utc)
+SQSP_LAST_DAY = datetime(2026, 11, 2, tzinfo=timezone.utc)
 UCF_START = datetime(2020, 8, 24, tzinfo=timezone.utc)
 
 YEAR_SECONDS = 365.25 * 24 * 3600
@@ -130,15 +131,14 @@ def main() -> None:
     now = datetime.now(timezone.utc)
     last_updated = now.strftime("%Y/%m/%d %H:%M UTC")
 
-    sqsp_elapsed_seconds = (now - SQSP_START).total_seconds()
-    work_hours = business_hours_since(SQSP_START, now)
+    sqsp_elapsed_seconds = (SQSP_LAST_DAY + timedelta(days=1) - SQSP_START).total_seconds()
+    work_hours = business_hours_since(SQSP_START, SQSP_LAST_DAY)
     coding_elapsed_seconds = (now - UCF_START).total_seconds()
 
     sqsp_body = (
-        f"<sub>🎉 <em>That's {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE.</em></sub>\n\n"
-        f"<sub>💼 <em>Of that, {format_units(work_hours * HOUR_SECONDS)} has actually been spent "
-        f"working (8 hrs/weekday, minus Squarespace holidays). "
-        f"(last updated {last_updated})</em></sub>"
+        f"<sub>🎉 <em>That was {format_units(sqsp_elapsed_seconds)} of being a Squarespace SWE.</em></sub>\n\n"
+        f"<sub>💼 <em>Of that, {format_units(work_hours * HOUR_SECONDS)} was actually spent "
+        f"working (8 hrs/weekday, minus Squarespace holidays).</em></sub>"
     )
     coding_body = (
         f"<sub>👨‍💻 <em>That's {format_units(coding_elapsed_seconds)} of coding (allegedly). "
