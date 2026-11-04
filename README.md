@@ -122,6 +122,29 @@
 <!--END_SECTION:waka-top-->
 
 <!--START_SECTION:waka-->
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-269%20hrs%207%20mins-blue?style=flat)
+
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                1598 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.48 % 
+🌆 Daytime                2300 commits        █████░░░░░░░░░░░░░░░░░░░░   19.41 % 
+🌃 Evening                3660 commits        ████████░░░░░░░░░░░░░░░░░   30.88 % 
+🌙 Night                  4294 commits        █████████░░░░░░░░░░░░░░░░   36.23 % 
+```
+📅 **I'm Most Productive on Sunday** 
+
+```text
+Monday                   2184 commits        █████░░░░░░░░░░░░░░░░░░░░   18.43 % 
+Tuesday                  1645 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.88 % 
+Wednesday                1817 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.33 % 
+Thursday                 996 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.40 % 
+Friday                   1630 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.75 % 
+Saturday                 1378 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.63 % 
+Sunday                   2202 commits        █████░░░░░░░░░░░░░░░░░░░░   18.58 % 
+```
+
+
 
 <!--END_SECTION:waka-->
 
